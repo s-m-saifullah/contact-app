@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.del-cel {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.del-cel-loading {
+  background-color: darkslategray;
+  color: white;
+  transition: 0.5s all;
+}
+
+.del-cel:hover {
+  background-color: brown;
+}

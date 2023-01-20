@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.col-2-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.col-2-input .w-half {
+  width: 48%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.btn-loading {
+  background-color: darkslategray;
+}
+
+.btn-not-loading {
+  background-color: blueviolet;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
